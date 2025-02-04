@@ -29,13 +29,13 @@ public class livre {
 			return quantite;
 		}
 		
-		public String ToString() {
-			return "Livre{" +
+		public String toString() {
+			return "livre{" +
 		               "name='" + name + '\'' +
 		               ", price=" + price +
 		               ", quantite=" + quantite +
 		               '}';
-		}
+			}
 
 }      
 
